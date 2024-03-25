@@ -1,5 +1,5 @@
 #mainBOx{
-    background-color: blue;
+    background-color: white;
     width:60vw;
     height: 80vh;
     position: relative;
@@ -15,7 +15,7 @@ div>#floatingInput-cus{
     width: 500px;
     height: 10px;
     position: absolute;
-    top: 100px;
+    top: 180px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -26,7 +26,7 @@ div>#floatingInput-cus{
     width: 500px;
     height: 10px;
     position: absolute;
-    top: 200px;
+    top: 280px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -34,14 +34,40 @@ div>#floatingInput-cus{
 }
 #lbl{
     position: absolute;
-    top: 70px;
+    top: 150px;
     left: 155px;
     height: 200px;
 }
 
 #lblPass{
     position: absolute;
-    top: 170px;
+    top: 250px;
     left: 155px;
     height: 200px;
+}
+
+#main{
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 102.5vh;
+    background-color: #0D6CF5;
+}
+
+div>h1{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
 }

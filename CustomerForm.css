@@ -1,0 +1,90 @@
+#cus-main{
+}
+
+h1{
+    position: relative;
+    left: 40vw;
+}
+
+#cus-mainBox{
+    width: 50vw;
+    height: 100vh;
+    background-color: #0D6CF5;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    position: absolute;
+}
+
+#lblId{
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+#floatingInputId-custom{
+    width: 500px;
+    height: 10px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#lblId{
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+#floatingInputName-custom{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#lblName{
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+#floatingInputAddress-custom{
+    width: 500px;
+    height: 10px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#lblAddress{
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+#floatingInputPhone-custom{
+    width: 500px;
+    height: 10px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#lblPhone{
+    position: relative;
+    top: 150px;
+    left: 120px;
+}

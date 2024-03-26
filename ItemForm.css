@@ -3,13 +3,13 @@
     --secondary:rgb(51, 59, 177);
 }
 
-#cus-main{
+#Item-main{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(135deg, var(--primary), var(--secondary));
 }
 
-#cus-mainBox{
+#ItemBox{
     width: 75vw;
     height: 97vh;
     background-color: white;
@@ -21,89 +21,108 @@
 }
 
 h1 {
-    max-width: 500px;
+    max-width: 200px;
     position: relative;
     top: 20px;
-    left: 25vw;
+    left: 30vw;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
 
-#floatingInputId-custom{
+#floatingInputId-item{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    right: 0;
+    left: -450px;
+    margin: auto;
+}
+
+#floatingInputName-item{
     width: 500px;
     height: 40px;
     position: absolute;
     top: 250px;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: -450px;
     margin: auto;
 }
 
-#lblId{
-    position: relative;
-    top: 130px;
-    left: 300px;
-}
-
-#floatingInputName-custom{
-    width: 500px;
+#floatingInputAddress-item{
+    width: 450px;
     height: 40px;
     position: absolute;
-    top: 250px;
+    top: -85px;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: 550px;
     margin: auto;
 }
 
-#lblName{
-    position: relative;
-    top: 130px;
-    left: 300px;
-}
-
-#floatingInputAddress-custom{
-    width: 500px;
+#floatingInputPhone-item{
+    width: 450px;
     height: 40px;
     position: absolute;
-    top: 250px;
+    top: -40px;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: 550px;
     margin: auto;
 }
 
-#lblAddress{
+#Item-main>.form-floating{
     position: relative;
-    top: 130px;
-    left: 300px;
-}
-
-#floatingInputPhone-custom{
-    width: 500px;
-    height: 40px;
-    position: absolute;
-    top: 250px;
+    top: 0;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: -200px;
     margin: auto;
 }
 
-#lblPhone{
+#lblItemId{
+    width: 200px;
+    height: 50px;
     position: relative;
-    top: 130px;
-    left: 300px;
+    top: 100px;
+    left: 250px;
+}
+
+#lblItemName{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 125px;
+    left: 250px;
+}
+
+#lblItemAddress{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: -40px;
+    left: 770px;
+}
+
+#lblItemPhone{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: -20px;
+    left: 770px;
 }
 
 button{
     width: 100px;
     height: 50px;
     position: relative;
-    top: 200px;
+    top: 550px;
+    bottom: 0;
+    right: 0;
     left: 300px;
 
 }

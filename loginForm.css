@@ -3,6 +3,18 @@
     --secondary:rgb(51, 59, 177);
 }
 
+#main{
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100vw;
+    height: 102.1vh;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
 #mainBOx{
     background-color: white;
     width:60vw;
@@ -50,18 +62,6 @@ div>#floatingInput-cus{
     top: 295px;
     left: 180px;
     height: 200px;
-}
-
-#main{
-    position: absolute;
-    top: -15px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    width: 100vw;
-    height: 102.1vh;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
 }
 
 div>h1{

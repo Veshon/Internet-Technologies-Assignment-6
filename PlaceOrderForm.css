@@ -1,0 +1,71 @@
+:root{
+    --primary: rgb(8, 175, 244);
+    --secondary:rgb(51, 59, 177);
+}
+
+#orderMainBox{
+    width: 75vw;
+    height: 97vh;
+    background-color: white;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+#orderMain{
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100vw;
+    height: 102.1vh;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+h1{
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    left: 25vw;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#inputGroup-sizing-sm-order{
+    width: 70px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+.form-control-cus{
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+#inputGroup-sizing-sm-dateOrder{
+    width: 70px;
+    position: relative;
+    left: 700px;
+    top: -13px;
+}
+
+.form-control-dateOrder{
+    width: 140px;
+    position: relative;
+    left: 700px;
+    top: -13px;
+}
+
+.form-select{
+    position: relative;
+    left: 100px;
+}

@@ -22,7 +22,7 @@
     left: 0;
     margin: auto;
     width: 100vw;
-    height: 102.1vh;
+    height: 102.5vh;
     background: linear-gradient(135deg, var(--primary), var(--secondary));
 }
 
@@ -139,4 +139,43 @@ button{
     position: relative;
     top: -55px;
     left: 5px;
+}
+
+#inputGroup-sizing-sm-desc{
+    position: relative;
+    top: 178px;
+    left: 425px;
+}
+
+.form-control-desc{
+    width: 150px;
+    position: relative;
+    top: 178px;
+    left: 425px;
+}
+
+#inputGroup-sizing-sm-cusName{
+    position: relative;
+    top: 195px;
+    left: 425px;
+}
+
+.form-control-cusName{
+    width: 150px;
+    position: relative;
+    top: 195px;
+    left: 425px;
+}
+
+#inputGroup-sizing-sm-QtyOnHand{
+    width: 100px;
+    position: relative;
+    top: 220px;
+    left: 120px;
+}
+.form-control-QtyOnHand{
+    width: 100px;
+    position: relative;
+    top: 220px;
+    left: 120px;
 }

@@ -66,7 +66,7 @@ h1 {
     height: 50px;
     position: relative;
     top: 100px;
-    left: 40px;
+    left: 15px;
 }
 
 #floatingInputAddress-custom{
@@ -76,7 +76,7 @@ h1 {
     top: -160px;
     bottom: 0;
     right: 0;
-    left: 550px;
+    left: 540px;
     margin: auto;
 }
 
@@ -85,7 +85,7 @@ h1 {
     height: 50px;
     position: relative;
     top: -80px;
-    left: 590px;
+    left: 560px;
 }
 
 #floatingInputPhone-custom{
@@ -95,7 +95,7 @@ h1 {
     top: -87px;
     bottom: 0;
     right: 0;
-    left: 550px;
+    left: 540px;
     margin: auto;
 }
 
@@ -104,7 +104,7 @@ h1 {
     height: 50px;
     position: relative;
     top: -45px;
-    left: 590px;
+    left: 560px;
 }
 
 button{

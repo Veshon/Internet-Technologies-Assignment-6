@@ -132,3 +132,11 @@ button{
     left: 500px;
     top: -80px;
 }
+
+#tblOrder{
+    width: 850px;
+    height: 50px;
+    position: relative;
+    top: -55px;
+    left: 5px;
+}

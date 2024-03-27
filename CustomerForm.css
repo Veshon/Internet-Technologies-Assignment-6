@@ -35,75 +35,83 @@ h1 {
     width: 500px;
     height: 40px;
     position: absolute;
-    top: 250px;
+    top: 130px;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: -500px;
     margin: auto;
 }
 
 #lblId{
+    width: 200px;
+    height: 50px;
     position: relative;
-    top: 130px;
-    left: 300px;
+    top: 60px;
+    left: 40px;
 }
 
 #floatingInputName-custom{
     width: 500px;
     height: 40px;
     position: absolute;
-    top: 250px;
+    top: 200px;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: -500px;
     margin: auto;
 }
 
 #lblName{
+    width: 200px;
+    height: 50px;
     position: relative;
-    top: 130px;
-    left: 300px;
+    top: 100px;
+    left: 40px;
 }
 
 #floatingInputAddress-custom{
-    width: 500px;
+    width: 450px;
     height: 40px;
     position: absolute;
-    top: 250px;
+    top: -160px;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: 550px;
     margin: auto;
 }
 
 #lblAddress{
+    width: 200px;
+    height: 50px;
     position: relative;
-    top: 130px;
-    left: 300px;
+    top: -80px;
+    left: 590px;
 }
 
 #floatingInputPhone-custom{
-    width: 500px;
+    width: 450px;
     height: 40px;
     position: absolute;
-    top: 250px;
+    top: -87px;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: 550px;
     margin: auto;
 }
 
 #lblPhone{
+    width: 200px;
+    height: 50px;
     position: relative;
-    top: 130px;
-    left: 300px;
+    top: -45px;
+    left: 590px;
 }
 
 button{
     width: 100px;
     height: 50px;
     position: relative;
-    top: 200px;
-    left: 300px;
+    top: -25px;
+    left: 270px;
 
 }

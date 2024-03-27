@@ -68,4 +68,5 @@ h1{
 .form-select{
     position: relative;
     left: 100px;
+    margin-bottom: 25px;
 }

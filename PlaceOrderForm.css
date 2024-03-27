@@ -70,3 +70,47 @@ h1{
     left: 100px;
     margin-bottom: 25px;
 }
+
+#inputGroup-sizing-sm-priceItem{
+    width: 70px;
+    position: relative;
+    left: 700px;
+    top: -120px;
+}
+
+.form-control-priceItem{
+    width: 140px;
+    position: relative;
+    left: 700px;
+    top: -120px;
+}
+
+#inputGroup-sizing-sm-qtyItem{
+    width: 80px;
+    position: relative;
+    left: 700px;
+    top: -103px;
+}
+
+.form-control-qtyItem{
+    width: 140px;
+    position: relative;
+    left: 700px;
+    top: -103px;
+}
+
+#inputGroup-sizing-sm-total{
+    width: 70px;
+    position: relative;
+    left: 700px;
+    top: -85px;
+}
+
+.form-control-total{
+    width: 140px;
+    position: relative;
+    left: 700px;
+    top: -85px;
+}
+
+

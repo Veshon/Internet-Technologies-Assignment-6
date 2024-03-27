@@ -11,7 +11,7 @@
     left: 0;
     margin: auto;
     width: 100vw;
-    height: 102.1vh;
+    height: 102.5vh;
     background: linear-gradient(135deg, var(--primary), var(--secondary));
 }
 
@@ -32,7 +32,7 @@ div>#floatingInput-cus{
     width: 500px;
     height: 10px;
     position: absolute;
-    top: 450px;
+    top: 150px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -43,7 +43,7 @@ div>#floatingInput-cus{
     width: 500px;
     height: 10px;
     position: absolute;
-    top: 650px;
+    top: 250px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -52,15 +52,15 @@ div>#floatingInput-cus{
 
 #lbl{
     position: absolute;
-    top: 195px;
-    left: 180px;
+    top: 120px;
+    left: 170px;
     height: 200px;
 }
 
 #lblPass{
     position: absolute;
-    top: 295px;
-    left: 180px;
+    top: 220px;
+    left: 170px;
     height: 200px;
 }
 

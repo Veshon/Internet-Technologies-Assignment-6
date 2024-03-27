@@ -142,3 +142,12 @@ button{
     position: relative;
     left: 60px;
 }
+
+#logOut{
+    width: 80px;
+    height: 35px;
+    position: relative;
+    top: -347px;
+    left: -415px;
+    z-index: 3;
+}

@@ -35,10 +35,10 @@ h1 {
     width: 500px;
     height: 40px;
     position: absolute;
-    top: 200px;
+    top: 80px;
     bottom: 0;
     right: 0;
-    left: -450px;
+    left: -420px;
     margin: auto;
 }
 
@@ -46,10 +46,10 @@ h1 {
     width: 500px;
     height: 40px;
     position: absolute;
-    top: 250px;
+    top: 90px;
     bottom: 0;
     right: 0;
-    left: -450px;
+    left: -420px;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ h1 {
     width: 450px;
     height: 40px;
     position: absolute;
-    top: -85px;
+    top: -185px;
     bottom: 0;
     right: 0;
     left: 550px;
@@ -68,7 +68,7 @@ h1 {
     width: 450px;
     height: 40px;
     position: absolute;
-    top: -40px;
+    top: -165px;
     bottom: 0;
     right: 0;
     left: 550px;
@@ -88,41 +88,70 @@ h1 {
     width: 200px;
     height: 50px;
     position: relative;
-    top: 100px;
-    left: 250px;
+    top: 50px;
+    left: 230px;
 }
 
 #lblItemName{
     width: 200px;
     height: 50px;
     position: relative;
-    top: 125px;
-    left: 250px;
+    top: 60px;
+    left: 230px;
 }
 
 #lblItemAddress{
     width: 200px;
     height: 50px;
     position: relative;
-    top: -40px;
-    left: 770px;
+    top: -95px;
+    left: 740px;
 }
 
 #lblItemPhone{
     width: 200px;
     height: 50px;
     position: relative;
-    top: -20px;
-    left: 770px;
+    top: -85px;
+    left: 740px;
 }
 
 button{
     width: 100px;
     height: 50px;
     position: relative;
-    top: 350px;
+    top: 250px;
     bottom: 0;
     right: 0;
-    left: 300px;
+    left: 250px;
 
+}
+
+#tblItem{
+    position: relative;
+    top: 330px;
+    width: 850px;
+    height: 10px;
+    max-width: 1000px;
+}
+
+#colItemId{
+    width: 200px;
+}
+
+#colDesc{
+    width: 200px;
+}
+
+#colQty{
+    width: 200px;
+}
+
+#colPrice{
+    width: 200px;
+}
+
+.table{
+    position: relative;
+    left: 25px;
 }

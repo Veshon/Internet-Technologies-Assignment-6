@@ -11,7 +11,7 @@
     border-bottom-right-radius: 200px;
     position: absolute;
     top: 25px;
-    left: 20px;
+    left: 10px;
 }
 
 #orderMain{
@@ -205,4 +205,41 @@ h1{
     top: 2px;
     left: 0;
     height: 35px;
+}
+
+#orderMainBox>a>button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-color: white;
+}
+
+#orderMainBox>a>button>img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    left: -2px;
+}
+
+#orderMain>img{
+    width: 150px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 150px;
+    right: 90px;
+}
+
+#orderMain>p{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 250px;
+    max-width: 300px;
+    position: absolute;
+    top: 330px;
+    right: 10px;
 }

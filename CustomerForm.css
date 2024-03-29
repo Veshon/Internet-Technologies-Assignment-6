@@ -199,3 +199,26 @@ button{
     top: 300px;
     left: 1140px;
 }
+
+@media screen and(max-width: 600px) {
+
+    #floatingInputId-custom{
+        width: 500px;
+        height: 40px;
+        position: absolute;
+        top: 95px;
+        bottom: 0;
+        right: 0;
+        left: -500px;
+        margin: auto;
+    }
+
+    #lblId{
+        width: 200px;
+        height: 50px;
+        position: relative;
+        top: 65px;
+        left: 15px;
+    }
+
+}

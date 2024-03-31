@@ -233,4 +233,192 @@ h1{
     right: 10px;
 }
 
+@media screen and (max-width: 600px) {
+
+    h1{
+        max-width: fit-content;
+        top: 0;
+        left: 75px;
+    }
+
+    #tblOrder{
+        display: none;
+    }
+
+    #orderMain>img{
+        display: none;
+    }
+
+    #orderMain>p{
+        display: none;
+    }
+
+    #orderMainBox{
+        width: 400px;
+        height: 500px;
+        background-color: white;
+        border-top-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+        border-bottom-right-radius: unset;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    #inputGroup-sizing-sm-order{
+        width: 70px;
+        position: absolute;
+        left: 0px;
+        top: 30px;
+    }
+
+    .form-control-cus{
+        width: 100px;
+        position: absolute;
+        left: 70px;
+        top: 30px;
+    }
+
+    .form-select{
+        position: relative;
+        top: 10px;
+        left: 0;
+        margin-bottom: 25px;
+    }
+
+    #selectCus{
+        position: absolute;
+        top: 165px;
+    }
+
+    #inputGroup-sizing-sm-priceItem{
+        width: 80px;
+        position: relative;
+        left: 220px;
+        top: -98px;
+    }
+
+    .form-control-priceItem{
+        width: 100px;
+        position: relative;
+        left: 220px;
+        top: -98px;
+
+    }
+
+    #inputGroup-sizing-sm-qtyItem{
+        width: 70px;
+        position: relative;
+        left: 220px;
+        top: -98px;
+    }
+
+    .form-control-qtyItem{
+        width: 120px;
+        position: relative;
+        left: 210px;
+        top: -98px;
+    }
+
+    #inputGroup-sizing-sm-total{
+        width: 80px;
+        height: 35px;
+        color: red;
+        font-weight: bolder;
+        font-size: 17px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .form-control-total{
+        width: 145px;
+        height: 35px;
+        color: red;
+        font-weight: bolder;
+        font-size: 17px;
+        position: relative;
+        left: 70px;
+        top: 0;
+    }
+
+    #inputGroup-sizing-sm-desc{
+        position: absolute;
+        top: 210px;
+        left: 270px;
+    }
+
+    .form-control-desc{
+        width: 92px;
+        position: absolute;
+        top: 210px;
+        left: 358px;
+    }
+
+    #inputGroup-sizing-sm-cusName{
+        position: absolute;
+        top: 240px;
+        left: 270px;
+    }
+
+    .form-control-cusName{
+        width: 125px;
+        position: relative;
+        top: 240px;
+        left: 325px;
+    }
+
+    #inputGroup-sizing-sm-QtyOnHand{
+        width: 100px;
+        position: absolute;
+        top: 200px;
+        left: 50px;
+    }
+
+    .form-control-QtyOnHand{
+        width: 100px;
+        position: relative;
+        top: 200px;
+        left: 150px;
+    }
+
+    #btn1{
+        width: 350px;
+        height: 40px;
+        position: absolute;
+        left: 5%;
+        top: 340px;
+    }
+
+    #btn2{
+        width: 110px;
+        height: 40px;
+        position: absolute;
+        left: 230px;
+        top: 260px;
+    }
+
+    #orderMainBox>a>button{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        border-color: white;
+    }
+
+    #orderMainBox>a>button>img{
+        width: 30px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: -2px;
+        left: -2px;
+    }
+
+}
+
 

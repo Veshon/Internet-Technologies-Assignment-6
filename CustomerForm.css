@@ -202,15 +202,25 @@ button{
 
 @media screen and (max-width: 600px){
 
+    h1{
+        max-width: max-content;
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        left: 80px;
+        right: 0;
+        margin: auto;
+    }
+
     #floatingInputId-custom{
         width: 300px;
         max-width: 300px;
         height: 10px;
         position: absolute;
-        top: 95px;
+        top: 120px;
         bottom: 0;
         right: 0;
-        left: 0;
+        left: 20%;
         margin: auto;
     }
 
@@ -219,10 +229,10 @@ button{
         max-width: 200px;
         height: 200px;
         position: absolute;
-        top: 165px;
+        top: 190px;
         bottom: 0;
         right: 0;
-        left: -100px;
+        left: 20px;
         margin: auto;
     }
 
@@ -231,10 +241,10 @@ button{
         max-width: 300px;
         height: 10px;
         position: absolute;
-        top: 160px;
+        top: 180px;
         bottom: 0;
         right: 0;
-        left: 0;
+        left: 20%;
         margin: auto;
     }
 
@@ -243,10 +253,10 @@ button{
         max-width: 200px;
         height: 50px;
         position: absolute;
-        top: 155px;
+        top: 175px;
         bottom: 0;
         right: 0;
-        left: -100px;
+        left: 20px;
         margin: auto;
     }
 
@@ -257,14 +267,18 @@ button{
     }
 
     #cus-mainBox{
-        width: auto;
-        height: auto;
+        width: 400px;
+        height: 500px;
         background-color: white;
-        border-top-right-radius: unset;
+        border-top-right-radius: 70px;
+        border-bottom-left-radius: 70px;
         border-bottom-right-radius: unset;
         position: absolute;
         top: 0;
+        bottom: 0;
+        right: 0;
         left: 0;
+        margin: auto;
     }
 
     #floatingInputAddress-custom{
@@ -272,10 +286,10 @@ button{
         max-width: 300px;
         height: 40px;
         position: absolute;
-        top: 230px;
+        top: 255px;
         bottom: 0;
         right: 0;
-        left: 0;
+        left: 20%;
         margin: auto;
     }
 
@@ -284,10 +298,10 @@ button{
         max-width: 200px;
         height: 50px;
         position: absolute;
-        top: 225px;
+        top: 250px;
         bottom: 0;
         right: 0;
-        left: -100px;
+        left: 20px;
         margin: auto;
     }
 
@@ -296,10 +310,10 @@ button{
         max-width: 300px;
         height: 40px;
         position: absolute;
-        top: 300px;
+        top: 330px;
         bottom: 0;
         right: 0;
-        left: 0;
+        left: 20%;
         margin: auto;
     }
 
@@ -308,10 +322,10 @@ button{
         max-width: 300px;
         height: 50px;
         position: absolute;
-        top: 295px;
+        top: 325px;
         bottom: 0;
         right: 0;
-        left: -100px;
+        left: 20px;
         margin: auto;
     }
 
@@ -319,8 +333,8 @@ button{
         width: 75px;
         height: 35px;
         position: relative;
-        top: 350px;
-        left: 140px;
+        top: 400px;
+        left: 50px;
 
     }
 
@@ -360,4 +374,23 @@ button{
     .form-floating{
         max-width: 300px;
     }
+
+    #cus-mainBox>a>button>img{
+        width: 30px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: -2px;
+        left:-2px;
+    }
+
+    #cus-mainBox>a>button{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        border-color: white;
+    }
+
 }

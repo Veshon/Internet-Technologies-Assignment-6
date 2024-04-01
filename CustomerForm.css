@@ -335,7 +335,6 @@ button{
         position: relative;
         top: 400px;
         left: 50px;
-
     }
 
     #cus-main>#cus-mainBox>img{
@@ -391,6 +390,171 @@ button{
         left: 0;
         background-color: white;
         border-color: white;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1100px){
+
+    #cus-main>#cus-mainBox>img{
+        width: 150px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 100px;
+        left: 880px;
+    }
+
+    #quote1{
+        width: 250px;
+        max-width: 200px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: white;
+        position: absolute;
+        top: 270px;
+        left: 870px;
+    }
+
+    #quote2{
+        width: 250px;
+        max-width: 130px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: white;
+        position: absolute;
+        top: 300px;
+        left: 910px;
+        margin: 0;
+    }
+
+    #floatingInputAddress-custom{
+        width: 300px;
+        max-width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 150px;
+        bottom: 0;
+        right: 0;
+        left: 300px;
+        margin: auto;
+    }
+
+    #tbl{
+        width: 700px;
+        height: 10px;
+        max-width: 1000px;
+        position: absolute;
+        top: 350px;
+        left: 10px;
+    }
+
+    #colId{
+        width: 30px;
+    }
+
+    #colName{
+        width: 20px;
+    }
+
+    #colAddress{
+        width: 30px;
+    }
+
+    #colMobile{
+        width: 50px;
+    }
+
+    #lblAddress{
+        width: 200px;
+        max-width: 200px;
+        height: 50px;
+        position: absolute;
+        top: 145px;
+        bottom: 0;
+        right: 0;
+        left: 210px;
+        margin: auto;
+    }
+
+    #floatingInputPhone-custom{
+        width: 300px;
+        max-width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 76.5px;
+        bottom: 0;
+        right: 0;
+        left: 300px;
+        margin: auto;
+    }
+
+    #lblPhone{
+        width: 200px;
+        max-width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 75px;
+        bottom: 0;
+        right: 0;
+        left: 210px;
+        margin: auto;
+    }
+
+    #floatingInputId-custom{
+        width: 300px;
+        max-width: 300px;
+        height: 10px;
+        position: absolute;
+        top: 85px;
+        bottom: 0;
+        right: 0;
+        left: -400px;
+        margin: auto;
+    }
+
+    #lblId{
+        width: 200px;
+        max-width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 155px;
+        bottom: 0;
+        right: 0;
+        left: -500px;
+        margin: auto;
+    }
+
+    #floatingInputName-custom{
+        width: 300px;
+        max-width: 300px;
+        height: 10px;
+        position: absolute;
+        top: 150px;
+        bottom: 0;
+        right: 0;
+        left: -400px;
+        margin: auto;
+    }
+
+    #lblName{
+        width: 200px;
+        max-width: 200px;
+        height: 50px;
+        position: absolute;
+        top: 145px;
+        bottom: 0;
+        right: 0;
+        left: -500px;
+        margin: auto;
+    }
+
+    #cus-mainBox>button{
+        width: 70px;
+        height: 40px;
+        position: relative;
+        top: 215px;
+        left: 250px;
+        text-align: center;
     }
 
 }

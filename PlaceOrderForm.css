@@ -51,8 +51,6 @@ h1{
     top: 30px;
 }
 
-
-
 .form-select{
     position: relative;
     left: 100px;
@@ -421,4 +419,144 @@ h1{
 
 }
 
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+
+    .input-group{
+        left: -60px;
+    }
+
+    .form-select{
+        left: 30px;
+    }
+
+    #orderMain>img{
+        position: absolute;
+        left: 890px;
+    }
+
+    p{
+        max-width: fit-content;
+        position: absolute;
+        left: 845px;
+    }
+
+    #tblOrder{
+        width: 680px;
+        position: absolute;
+        top: 360px;
+        left: 5px;
+    }
+
+    #btn1{
+        left: 300px;
+
+    }
+
+    #btn2{
+        left: 400px;
+    }
+
+    #inputGroup-sizing-sm-qtyItem{
+        width: 70px;
+        position: relative;
+        left: 600px;
+        top: -170px;
+    }
+
+    .form-control-qtyItem{
+        width: 120px;
+        position: relative;
+        left: 600px;
+        top: -170px;
+    }
+
+    #inputGroup-sizing-sm-total{
+        width: 80px;
+        height: 35px;
+        color: red;
+        font-weight: bolder;
+        font-size: 17px;
+        position: absolute;
+        left: 600px;
+        top: -160px;
+    }
+
+    .form-control-total{
+        width: 145px;
+        height: 35px;
+        color: red;
+        font-weight: bolder;
+        font-size: 17px;
+        position: relative;
+        left: 670px;
+        top: -160px;
+    }
+
+    #inputGroup-sizing-sm-desc{
+        position: absolute;
+        top: 175px;
+        left: 350px;
+    }
+
+    .form-control-desc{
+        width: 120px;
+        position: absolute;
+        top: 175px;
+        left: 440px;
+    }
+
+    #inputGroup-sizing-sm-cusName{
+        position: absolute;
+        top: 220px;
+        left: 350px;
+    }
+
+    .form-control-cusName{
+        width: 125px;
+        position: relative;
+        top: 220px;
+        left: 405px;
+    }
+
+    #inputGroup-sizing-sm-priceItem{
+        width: 80px;
+        position: relative;
+        left: 600px;
+        top: -180px;
+    }
+
+    .form-control-priceItem {
+        width: 100px;
+        position: relative;
+        left: 600px;
+        top: -180px;
+    }
+
+    #inputGroup-sizing-sm-QtyOnHand{
+        width: 100px;
+        position: relative;
+        top: 230px;
+        left: 100px;
+    }
+    .form-control-QtyOnHand{
+        width: 100px;
+        position: relative;
+        top: 230px;
+        left: 100px;
+    }
+
+    #inputGroup-sizing-sm-order{
+        width: 70px;
+        position: relative;
+        left: 90px;
+        top: 40px;
+    }
+
+    .form-control-cus{
+        width: 100px;
+        position: relative;
+        left: 90px;
+        top: 40px;
+    }
+}
 

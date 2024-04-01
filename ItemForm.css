@@ -210,7 +210,7 @@ button{
         padding: 0;
     }
 
-    #ItemBox{
+    #ItemBox {
         width: 400px;
         height: 500px;
         max-width: 400px;
@@ -237,7 +237,7 @@ button{
         left: 55px;
     }
 
-    #ItemBox>a>button {
+    #ItemBox > a > button {
         width: 30px;
         height: 30px;
         position: absolute;
@@ -247,7 +247,7 @@ button{
         border-color: white;
     }
 
-    #Item-main>img {
+    #Item-main > img {
         display: none;
     }
 
@@ -373,14 +373,136 @@ button{
         left: -2px;
         z-index: 3;
     }
+}
 
     @media screen and (min-width: 601px) and (max-width: 1100px){
 
         #Item-main>img{
+            width: 200px;
             position: absolute;
-            left: 300px;
+            left: 860px;
+        }
+
+        #floatingInputId-item {
+            width: 300px;
+            max-width: 300px;
+            height: 10px;
+            position: absolute;
+            top: 80px;
+            bottom: 0;
+            right: 0;
+            left: -200px;
+            margin: auto;
+        }
+
+        #lblItemId {
+            width: 200px;
+            max-width: 200px;
+            max-height: fit-content;
+            height: 200px;
+            position: absolute;
+            top: 150px;
+            bottom: 0;
+            right: 0;
+            left: -300px;
+            margin: auto;
+        }
+
+        #floatingInputName-item {
+            width: 300px;
+            height: 40px;
+            max-width: 300px;
+            max-height: fit-content;
+            position: absolute;
+            top: 150px;
+            bottom: 0;
+            right: 0;
+            left: -200px;
+            margin: auto;
+        }
+
+        #floatingInputAddress-item {
+            width: 300px;
+            height: 40px;
+            max-width: 300px;
+            position: absolute;
+            top: 70px;
+            bottom: 0;
+            right: 0;
+            left: 520px;
+            margin: auto;
+        }
+
+        #floatingInputPhone-item {
+            width: 300px;
+            height: 40px;
+            max-width: 300px;
+            position: absolute;
+            top: 150px;
+            bottom: 0;
+            right: 0;
+            left: 520px;
+            margin: auto;
+        }
+
+        #lblItemName {
+            width: 200px;
+            max-width: 200px;
+            height: 200px;
+            max-height: fit-content;
+            position: absolute;
+            top: 220px;
+            bottom: 0;
+            right: 0;
+            left: -300px;
+            margin: auto;
+        }
+
+        #lblItemAddress {
+            width: 200px;
+            max-width: 200px;
+            height: 200px;
+            max-height: fit-content;
+            position: absolute;
+            top: 140px;
+            bottom: 0;
+            right: 0;
+            left: 430px;
+            margin: auto;
+        }
+
+        #lblItemPhone {
+            width: 200px;
+            max-width: 200px;
+            height: 200px;
+            max-height: fit-content;
+            position: absolute;
+            top: 220px;
+            bottom: 0;
+            right: 0;
+            left: 430px;
+            margin: auto;
+        }
+
+        #tblItem{
+            width: 700px;
+            position: absolute;
+            top: 350px;
+            left: 10px;
+        }
+
+        button{
+            position: relative;
+            left: 200px;
+        }
+
+        p{
+            max-width: 250px;
+            position: absolute;
+            top: 300px;
+            left: 890px;
         }
 
     }
 
-}
+

@@ -23,7 +23,7 @@
     margin: auto;
     width: 100vw;
     height: 102.5vh;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background: linear-gradient(100deg, var(--primary), var(--secondary));
 }
 
 h1{

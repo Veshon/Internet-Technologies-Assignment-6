@@ -12,7 +12,7 @@
     margin: auto;
     width: 100vw;
     height: 102.5vh;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background: linear-gradient(100deg, var(--primary), var(--secondary));
 }
 
 #mainBOx{
@@ -84,7 +84,13 @@ div>h1{
     left: 40%;
 }
 
-@media screen and (max-width: 600px){
+
+@media all and (max-width: 835px){
+
+}
+
+
+@media all and (max-width: 600px){
 
     #mainBOx>h1{
         font-size: 36px;
